@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="The Portfolio Site of Caleb Sylvest" content="The design portfolio of Caleb Sylvst" />
+<meta name="keywords" content="caleb,sylvest,graphic,design,web,print,portfolio,adobe,jobs,designer,developer" />
+<title>Caleb Sylvest | About Me</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="megaWrapper">
+	
+<!--#include virtual="sideBar.html"--> <!-- include sideBar -->	
+
+<div id="containerAbout">
+
+	<div id="mainNav">
+    	<ul>
+        	
+        	<li><a href="index.shtml">PORTFOLIO</a></li>
+            <li class="about"><a href="about.shtml">ABOUT ME</a></li>
+            <li><a href="links.shtml">LINKS</a></li>
+            <li><a href="contact.shtml">CONTACT</a></li>
+        </ul>
+    </div><!-- end mainNav -->
+    
+	<div id="content">
+    	<div class="titleBar">
+        </div><!-- end titleBar -->
+        <p>Some day I will put up a blog.</p>        	
+
+	<div id="navBumper"></div><!-- end navBump -->
+
+    </div><!-- end content -->
+    
+    <div id="clearFloats"></div>
+
+	<div id="whiteBlock"></div><!-- end whiteBlock -->
+    
+</div><!-- end container -->
+
+</div><!-- end megaWrapper -->
+
+
+
+</body>
+</html>

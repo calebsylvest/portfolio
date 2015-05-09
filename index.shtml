@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="The Portfolio Site of Caleb Sylvest" content="The design portfolio of Caleb Sylvst" />
+<meta name="keywords" content="caleb,sylvest,graphic,design,web,print,portfolio,adobe,jobs,designer,developer" />
+<title>Caleb Sylvest | Portfolio</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="megaWrapper">
+
+<!--#include virtual="sideBar.html"--> <!-- include sideBar -->	
+
+<div id="containerPort">
+
+	<div id="mainNav">
+    	<ul>
+        	<li class="port2"><a href="index.shtml">PORTFOLIO</a></li>
+            <li class="about"><a href="about.shtml">ABOUT ME</a></li>
+            <li class="links"><a href="links.shtml">LINKS</a></li>
+            <li class="contact"><a href="contact.shtml">CONTACT</a></li>
+            <li class="sylvezine"><a href="sylvezine/index.php">SYLVEZINE</a></li>
+        </ul>
+    </div><!-- end mainNav -->
+    
+	<div id="contentIndex">
+    
+    	<div class="titleBar"><img src="images/print_media.gif" alt="Print Media"/></div><!-- end titleBar -->
+        
+        	<div id="portImage"><a href="rebirth.shtml"><img src="images/portfolio/print/rebirth.jpg" border="0" alt="rebirth screenprint"/></a></div><!-- end portImage -->
+        	<div id="portImage"><a href="relationship.shtml"><img src="images/portfolio/print/relationship_talks.jpg" border="0"/></a></div><!-- end portImage -->
+        	<div id="portImage"><a href="dtp.shtml"><img src="images/portfolio/print/dtp.jpg" border="0"/></a></div><!-- end portImage -->
+        	<div id="portImage" class="portLast"><a href="winterformal.shtml"><img src="images/portfolio/print/winter_formal.jpg" border="0" alt="roaring twenties winter formal"/></a></div><!-- end portImage -->
+        	<div id="portImage"><a href="studentshow.shtml"><img src="images/portfolio/print/louisiana_tech.jpg" border="0"/></a></div><!-- end portImage -->
+        	<div id="portImage"><a href="nintendo.shtml"><img src="images/portfolio/print/nintendo.jpg" border="0"/></a></div><!-- end portImage -->
+        	<div id="portImage"><a href="wacom.shtml"><img src="images/portfolio/print/wacom.jpg" border="0"/></a></div><!-- end portImage -->
+        	<div id="portImage" class="portLast"><a href="proverbs.shtml"><img src="images/portfolio/print/proverbs.jpg" border="0"/></a></div><!-- end portImage -->
+        	<div id="portImage"><a href="dicello.shtml"><img src="images/portfolio/print/bridget_dicello.jpg" border="0" alt="bridget dicello business card"/></a></div><!-- end portImage -->
+        	<div id="portImage"><a href="riverroads.shtml"><img src="images/portfolio/print/river_roads.jpg" border="0" alt="river road coffees magazine ad"/></a></div><!-- end portImage -->
+            <div id="portImage"><a href="graveyard.shtml"><img src="images/portfolio/print/graveyard_boogie.jpg" border="0" alt="graveyard boogie door hanger"/></a></div><!-- end portImage -->
+
+
+
+		<div class="titleBar"><img src="images/digital_media.gif" alt="Digital Media"/></div><!-- end titleBar -->
+        
+            <div id="portImage"><a href="football.shtml"><img src="images/portfolio/digital/football.jpg" border="0" alt="la tech football advertisement"/></a></div><!-- end portImage -->
+        	<div id="portImage"><a href="readyable.shtml"><img src="images/portfolio/digital/readyable.jpg" border="0" alt="ready able animation"/></a></div><!-- end portImage -->
+        	<div id="portImage"><a href="early.shtml"><img src="images/portfolio/digital/early.jpg" border="0"/></a></div><!-- end portImage -->
+        	<div id="portImage" class="portLast"><a href="paris.shtml"><img src="images/portfolio/digital/paris.jpg" border="0"/></a></div><!-- end portImage -->
+            <div id="portImage"><a href="backgrounds.shtml"><img src="images/portfolio/digital/backgrounds.jpg" border="0" alt="college of business backgrounds"/></a></div><!-- end portImage -->
+
+        	
+		<div class="titleBar"><img src="images/web_design.gif" alt="Web Design"/></div><!-- end titleBar -->
+        
+			<div id="portImage"><a href="rhcp.shtml"><img src="images/portfolio/web/rhcp.jpg" border="0"/></a></div><!-- end portImage -->
+        	<div id="portImage"><a href="mesaverde.shtml"><img src="images/portfolio/web/mesa_verde.jpg" border="0"/></a></div><!-- end portImage -->
+        	<div id="portImage"><a href="wesley.shtml"><img src="images/portfolio/web/wesley.jpg" border="0"/></a></div><!-- end portImage -->
+        	<div id="portImage" class="portLast"><a href="dreamgreen.shtml"><img src="images/portfolio/web/dreamgreen.jpg" border="0"/></a></div><!-- end portImage -->
+            <div id="portImage"><a href="winetrain.shtml"><img src="images/portfolio/web/winetrain.jpg" border="0"/></a></div><!-- end portImage -->
+        	
+
+	  <div id="clearFloats"></div> 
+      
+              <div id="navBumper"></div><!-- end navBump -->
+  
+    
+    </div><!-- end contentIndex -->
+    
+    <div id="clearFloats"></div>
+
+	<div id="whiteBlock"></div><!-- end whiteBlock -->
+    
+
+</div><!-- end container -->
+
+</div><!-- end megaWrapper -->
+
+
+</body>
+</html>

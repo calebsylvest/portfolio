@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="The Portfolio Site of Caleb Sylvest" content="The design portfolio of Caleb Sylvst" />
+<meta name="keywords" content="caleb,sylvest,graphic,design,web,print,portfolio,adobe,jobs,designer,developer" />
+<title>Caleb Sylvest | Links</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="megaWrapper">
+	
+<!--#include virtual="sideBar.html"--> <!-- include sideBar -->	
+
+<div id="containerLinks">
+
+	<div id="mainNav">
+    	<ul>
+        	<li class="port"><a href="index.shtml">PORTFOLIO</a></li>
+            <li class="about"><a href="about.shtml">ABOUT ME</a></li>
+            <li class="links2"><a href="links.shtml">LINKS</a></li>
+            <li class="contact"><a href="contact.shtml">CONTACT</a></li>
+            <li class="sylvezine"><a href="sylvezine/index.php">SYLVEZINE</a></li>
+        </ul>
+    </div><!-- end mainNav -->
+    
+	<div id="content">
+    	<div class="titleBar">
+    		<img src="images/favorite_links.gif" />
+        </div><!-- end titleBar -->
+        
+         <p>If you have any questions or comments for me, would like to offer me a job, or just chat please contact me. Thanks!</p>
+        
+        &nbsp;
+        <p><a href="http://www.smashingmagazine.com" target="_blank">Smashing Magazine</a></p>
+        <p>Of course everyone in the design world knows Smashing Magazine, but still can't resist adding it!</p>
+        &nbsp;
+        <p><a href="http://www.changethethought.com/" target="_blank">Change the Thought</a></p>
+        <p>Change the Thought is a collection of graphic design, art, and illustrations.</p>
+        &nbsp;
+        <p><a href="http://www.holycool.net/" target="_blank">Holy Cool</a></p>
+        <p>Holy Cool post some cool and unique objects, products, and things. If you like that kind of stuff check it out.</p>
+        &nbsp;
+        <p><a href="http://seesawdesigns.blogspot.com/" target="_blank">SeeSaw</a></p>
+        <p>SeeSaw is a blog featuring artsy clothing, furniture, and products. I mostly enjoy the furnishings though.</p>
+		&nbsp;
+        <p><a href="http://patterntap.com/" target="_blank">Pattern Tap</a></p>
+        <p>I love Pattern Tap because they offer great resources to Web Designers. Examples of good web design are offered in convenient catagories including Navigation, Headers, Footers, Search Bars and much much more.</p>
+        &nbsp;
+        <p><a href="http://www.flashgametuts.com/" target="_blank">Flash Game Tuts</a></p>
+        <p>If you are interested in getting into Flash game development and only know a little about Action Script, I would suggest Flash Game Tuts, some of the most well written tutorials. And in good English too!</p>
+        &nbsp;
+        <p><a href="http://www.takemytexture.com/" target="_blank">Take My Texture</a></p>
+        <p>A good resource to grab some high quality textures in a hurry.</p>
+        &nbsp;
+        <p><a href="http://www.iheartmovies.com/" target="_blank">I Heart Movies</a></p>
+        <p>I Heart Movies allows you to keep track of and rate movies that you have seen, and also see top rated movies of others. And yes, I know Netflix has this also. I don't subscribe to Netflix.</p>
+        &nbsp;
+        <p><a href="http://armorgames.com/play/6804/pixel-purge" target="_blank">Pixel Purge</a></p>
+        <p>If I ever get annoyed while pushing pixels I take a little trip over to Pixel Purge land and blast away. Feels good everytime.</p>
+		&nbsp;
+        <p><a href="http://www.phoboslab.org/ztype/" target="_blank">Z Type</a></p>
+        <p>This is the game for Web Designers. Not because of the gameplay but because the game is built entirely using Javascript and HTML5. But it is still cool, I wish this game existed when I was younger, I would be a better typist.</p>
+        &nbsp;
+        
+        
+        <div id="navBumper"></div><!-- end navBump -->
+        	
+
+    </div><!-- end content -->
+    
+    <div id="clearFloats"></div>
+
+	<div id="whiteBlock"></div><!-- end whiteBlock -->
+    
+</div><!-- end container -->
+
+</div><!-- end megaWrapper -->
+
+
+
+</body>
+</html>

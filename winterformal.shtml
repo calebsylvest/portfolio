@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="The Portfolio Site of Caleb Sylvest" content="The design portfolio of Caleb Sylvst" />
+<meta name="keywords" content="caleb,sylvest,graphic,design,web,print,portfolio,adobe,jobs,designer,developer" />
+<title>Caleb Sylvest | Winter Formal</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="megaWrapper">
+	
+<!--#include virtual="sideBar.html"--> <!-- include sideBar -->
+
+<div id="containerPort">
+
+	<div id="mainNav">
+    	<ul>
+        	<li class="port2"><a href="index.shtml">PORTFOLIO</a></li>
+            <li class="about"><a href="about.shtml">ABOUT ME</a></li>
+            <li class="links"><a href="links.shtml">LINKS</a></li>
+            <li class="contact"><a href="contact.shtml">CONTACT</a></li>
+            <li class="sylvezine"><a href="sylvezine/index.php">SYLVEZINE</a></li>
+        </ul>
+    </div><!-- end mainNav -->
+    
+	<div id="content">
+    	<div class="titleBar">
+    		<img src="images/portfolio/winter_formal.gif" alt="the roaring twenties winter formal 2010" />
+        </div><!-- end titleBar -->
+        &nbsp;
+         <p>Back in December the Wesley Foundation at Louisiana Tech had their annual winter formal dance. The theme was to be based on the 1920s feel, with the underground parties and such, (think Great Gatsby). I branded the dance as The Roaring Twenties Winter Formal and created this poster as advertisement. Also as a sidenote, I won a Silver Addy Award for the design.</p>
+        &nbsp;
+        
+        <img src="images/portfolio/winterformal.jpg" alt="the roaring twenties winter formal 2010" />
+        &nbsp;
+        
+        
+        <div id="navBumper">
+        	<div class="bumpLeft"><a href="dtp.shtml"><img src="images/left.gif" border="0" alt="navigate left"/></a></div>
+            <div class="bumpRight"><a href="studentshow.shtml"><img src="images/right.gif" border="0" alt="navigate right"/></a></div>
+        </div><!-- end navBump -->
+        	
+
+    </div><!-- end content -->
+    
+    <div id="clearFloats"></div>
+
+	<div id="whiteBlock"></div><!-- end whiteBlock -->
+    
+</div><!-- end container -->
+
+</div><!-- end megaWrapper -->
+
+
+
+</body>
+</html>

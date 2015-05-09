@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="The Portfolio Site of Caleb Sylvest" content="The design portfolio of Caleb Sylvst" />
+<meta name="keywords" content="caleb,sylvest,graphic,design,web,print,portfolio,adobe,jobs,designer,developer" />
+<title>Caleb Sylvest | About Me</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="megaWrapper">
+
+<!--#include virtual="sideBar.html"--> <!-- include sideBar -->		
+
+<div id="containerAbout">
+
+	<div id="mainNav">
+    	<ul>
+        	<li class="port"><a href="index.shtml">PORTFOLIO</a></li>
+            <li class="about2"><a href="about.shtml">ABOUT ME</a></li>
+            <li class="links"><a href="links.shtml">LINKS</a></li>
+            <li class="contact"><a href="contact.shtml">CONTACT</a></li>
+            <li class="sylvezine"><a href="sylvezine/index.php">SYLVEZINE</a></li>
+        </ul>
+    </div><!-- end mainNav -->
+    
+	<div id="content">
+    	<div class="titleBar">
+    		<img src="images/about_me.gif" />
+        </div><!-- end titleBar -->
+        &nbsp;
+        <p>I always hate having to write About Me pages or short biographies. I understand the importance, but how can someone represent themselves well in a couple of paragraphs, or explain a concept or reason for doing something. I'm not sure, but I'll give it my best shot.</p>
+        &nbsp;
+        <p>In May I will graduate from <a href="http://www.latech.edu/" target="_blank">Louisiana Tech University</a> with a degree in Communication Design (synonymous with Graphic Arts). I have always lived in Louisiana, though I wouldn’t mind trying out some other places, and I have always been into art.</p>       
+        &nbsp;
+        <p> Despite what many people stereotypically think of Louisiana I do not live on a bayou, I have never had a pet alligator, and I do have all of my teeth.</p>
+        &nbsp;
+        <p>	Art plays a major role in my life. If I don’t do some sort of art or design I start to get antsy and distracted, it’s something that I have to do.</p>
+        &nbsp;
+        <p>Whether by complete coincidence or great forethought, my parents names me Caleb Stephen Sylvest (#CSS).</p>
+        &nbsp;
+        <p>In August I will be marrying <a href="http://www.halfrau.com" target="_blank">Haley Frautschi</a>, my best friend and fellow designer.</p>
+        &nbsp;
+        <p>I enjoy listening to and writing music, board games, foosball, graphic novels, and orange Gatorade.</p>
+        &nbsp;
+        <div id="spacer"></div><!-- end spacer -->
+        &nbsp;
+        <div id="spacer"></div><!-- end spacer -->
+        &nbsp;
+        <div id="spacer"></div><!-- end spacer -->
+        &nbsp;
+        <div id="spacer"></div><!-- end spacer -->
+        &nbsp;
+        <div id="spacer"></div><!-- end spacer -->
+        &nbsp;
+        <div id="spacer"></div><!-- end spacer -->
+        &nbsp;
+
+	<div id="navBumper"></div><!-- end navBump -->
+
+    </div><!-- end content -->
+    
+    <div id="clearFloats"></div>
+
+	<div id="whiteBlock"></div><!-- end whiteBlock -->
+    
+</div><!-- end container -->
+
+</div><!-- end megaWrapper -->
+
+
+
+</body>
+</html>
