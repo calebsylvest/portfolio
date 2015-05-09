@@ -1,0 +1,874 @@
+/* HTML5 Reset :: style.css
+-------------------------------------------------------------------------------*/
+
+
+/* Font imports
+-------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../fonts/OpenSans/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../fonts/OpenSans/opensans-bold-webfont.eot');
+    src: url('../fonts/OpenSans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/IcoMoon/icomoon.eot');
+	src:url('../fonts/IcoMoon/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/IcoMoon/icomoon.svg#icomoon') format('svg'),
+		url('../fonts/IcoMoon/icomoon.woff') format('woff'),
+		url('../fonts/IcoMoon/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Let's default this puppy out
+-------------------------------------------------------------------------------*/
+
+/* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}									
+
+article, aside, figure, footer, header, hgroup, nav, section {display: block;}
+
+/* Responsive images and other embedded objects */
+img,
+object,
+embed {width: 100%; height: auto; display: block;}
+
+/* force a vertical scrollbar to prevent a jumpy page */
+html {overflow-y: scroll;}
+
+/* we use a lot of ULs that aren't bulleted. 
+	don't forget to restore the bullets within content. */
+ul {list-style: none;}
+
+blockquote, q {quotes: none;}
+
+blockquote:before, 
+blockquote:after, 
+q:before, 
+q:after {content: ''; content: none;}
+
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+del {text-decoration: line-through;}
+
+abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+
+/* tables still need cellspacing="0" in the markup */
+table {border-collapse: collapse; border-spacing: 0;}
+th {font-weight: bold; vertical-align: bottom;}
+td {font-weight: normal; vertical-align: top;}
+
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+
+input, select {vertical-align: middle;}
+
+pre {
+	white-space: pre; /* CSS2 */
+	white-space: pre-wrap; /* CSS 2.1 */
+	white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+	word-wrap: break-word; /* IE */
+}
+
+input[type="radio"] {vertical-align: text-bottom;}
+input[type="checkbox"] {vertical-align: bottom; *vertical-align: baseline;}
+.ie6 input {vertical-align: text-bottom;}
+
+select, input, textarea {font: 99% sans-serif;}
+
+table {font-size: inherit; font: 100%;}
+ 
+/* Accessible focus treatment */
+a:hover, a:active, a:visited, a:focus, a:link {outline: none;}
+
+small {font-size: 85%;}
+
+/* we don't want our text to have a faux bold, use a bold form of typeface instead */
+strong, th, b, strong {font-family: 'OpenSansBold', Helmet, Freesans, sans-serif; font-weight: normal; }
+
+td, td img {vertical-align: top;} 
+
+/* Make sure sup and sub don't screw with your line-heights */
+sub, sup {font-size: 75%; line-height: 0; position: relative;}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+
+/* standardize any monospaced elements */
+pre, code, kbd, samp {font-family: monospace, sans-serif;}
+
+/* hand cursor on clickable elements */
+.clickable,
+label, 
+input[type=button], 
+input[type=submit], 
+button {cursor: pointer;}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea {margin: 0;}
+
+/* make buttons play nice in IE */
+button {width: auto; overflow: visible;}
+ 
+/* scale images in IE7 more attractively */
+.ie7 img {-ms-interpolation-mode: bicubic;}
+
+/* prevent BG image flicker upon hover */
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+
+/* let's clear some floats */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+.clearfix:after { clear: both; }  
+.clearfix { zoom: 1; }  
+
+
+
+/* Ok, this is where the fun starts.
+-------------------------------------------------------------------------------*/
+
+body {font: 87.5% 'OpenSansLight', Helmet, Freesans, sans-serif;}
+
+body, select, input, textarea {color: #626055;}
+
+a {color: #615f54; text-decoration: none; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease;}
+a:hover {color: #f05232;}
+
+::-moz-selection{background: #f05232; color: #fff; text-shadow: none;}
+::selection {background: #f05232; color: #fff; text-shadow: none;} 
+
+/*	j.mp/webkit-tap-highlight-color */
+a:link {-webkit-tap-highlight-color: #fcd700;} 
+
+ins {background-color: #fcd700; color: #000; text-decoration: none;}
+mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+
+h1, h2, h3, h4, h5 {font-weight: normal; font-family: 'OpenSansBold', Helmet, Freesans, sans-serif;}
+h2, h3, h4, h5 {margin-bottom: .5em; line-height: 90%; color: #f05133;}
+h2 {font-size: 3.3em;}
+h3 {font-size: 3em;}
+h4 {font-size: 2.5em;}
+h5 {font-size: 2em;}
+
+p {margin-bottom: 1.2em; font-size: 1.2em;}
+
+p a {color: #f05232;}
+
+/* ----- LAYOUT ----- */
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #f0f0f0;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.story {
+	width: 100%;
+	height: auto;
+	padding: 2.2em 0;
+}
+
+.selected-work {
+	padding: 8em 0;
+}
+
+.container,
+.container-small {
+	width: 95%;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* test experiment with IE8 */
+.container-small {
+  max-width: 650px;
+}
+
+.about .container-small {
+	width: 90%;
+}
+
+.m-odd,
+.m-even {
+	width: 47%;
+	height: auto;
+	float: left;
+	margin: 0 3% 6%;
+	border: .5em solid #f8f8f8;
+}
+
+.m-odd,
+.m-first {
+	margin-left: 0;
+}
+
+.m-even,
+.m-last {
+	margin-right: 0;
+}
+
+.third {
+	width: 30%;
+	height: auto;
+	float: left;
+	margin: 0 2.5% 5%;
+}
+
+.link-underline {
+	border-bottom: 1px dotted #626055;
+}
+
+.link-underline:hover {
+	border-bottom: 1px dotted #f05232;
+}
+
+.stickem-container {
+ 	position: relative;
+}
+
+.stickit {
+	position: fixed;
+	top: 0;
+}
+
+.stickit-end {
+    bottom: 40px;
+    position: absolute;
+    right: 0;
+}
+
+/* ----- STYLES ----- */
+
+.feature {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.slide{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#slide1 {
+	background: transparent url(../images/banners/feature-banner-01-mobile.jpg) no-repeat center top fixed;
+	background-size: 100% auto;
+}
+#slide2 {
+	background: transparent url(../images/banners/feature-banner-02-mobile.jpg) no-repeat center top fixed;
+	background-size: 100% auto;
+}
+#slide3 {
+	background: transparent url(../images/banners/feature-banner-03-mobile.jpg) no-repeat center top fixed;
+	background-size: 100% auto;
+}
+
+/* anchor links need to be off-set because of fixed header */
+#portfolio,
+#about,
+#contact {
+	position: absolute;
+	top: -65px;
+	width: 30px;
+}
+
+.portfolio {
+	position: relative;
+}
+
+.portfolio-piece {
+	margin: 3em 0;
+}
+
+.about {
+	background-color: #f7f7f7;
+	text-align: center;
+	position: relative;
+}
+
+.footer {
+	background-color: #626055;
+	color: #ccc;
+}
+
+.copyright {
+	float: right;
+}
+
+.stickem .header-container {overflow:hidden}
+
+/* ----- PROJECT-DATA ----- */
+
+.project-data {
+	border-bottom: 1px solid #ddddd7;
+	padding-bottom: 2.5em;
+	margin-bottom: 2.5em;
+	font-size: .8em;
+}
+
+.project-data li {
+	display: inline-block;
+	margin-right: 2em;
+}
+
+.project-data li b {
+	font-size: .9em;
+	margin-right: .5em;
+	text-transform: uppercase;
+}
+
+/* ----- SOCIAL LINKS, AWARDS, LOGO ----- */
+
+.arrow-pager {
+	position: relative;
+}
+
+.award {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.award-link {
+	font-size: 2em;
+	text-decoration: none;
+	-webkit-transition: background 0.3s ease;
+	-moz-transition: background 0.3s ease;
+	transition: background 0.3s ease;
+}
+
+.social-block {
+	margin-bottom: -5em;
+}
+
+.social-block li {
+	float: left;
+	margin: 0 .7em;
+}
+
+.social-container {
+	width: 22.2em;
+	margin: 0 auto;
+}
+
+.social-link {
+	color: #adaca6;
+	width: 6em;
+	height: 6em;
+	background-color: #626055;
+	text-decoration: none;
+	-webkit-border-radius: 999em;
+	-moz-border-radius: 999em;
+	border-radius: 999em;
+	-webkit-transition: background 0.3s ease;
+	-moz-transition: background 0.3s ease;
+	transition: background 0.3s ease;
+}
+
+.social-link:hover {
+	color: #f7f7f7;
+}
+
+.social-block ul li a.social-link span:before,
+.award a.award-link span:before,
+.arrow-pager a.arrow-right span:before,
+.arrow-pager a.arrow-left span:before,
+a.logo-link span:before  {
+	font-family: 'icomoon';
+	font-size: 2em;
+	content: attr(data-icon);
+	speak: none;
+	position: relative;
+	top: .93em;
+}
+
+.award a.award-link span:before,
+.arrow-pager a.arrow-right span:before,
+.arrow-pager a.arrow-left span:before {
+	top: 0;
+}
+a.logo-link span:before {
+	font-size: 3em;
+	position: absolute;
+	top: 18%;
+}
+
+/* pager-arrows will be at bottom on mobile */
+a.arrow-left,
+a.arrow-right {
+	width: 90px;
+	height: 45px;
+	text-decoration: none;
+	position: absolute;
+}
+a.arrow-left {
+	background: #ccc url(../images/arrow-left.png) no-repeat 70% center;
+	left: -2.5%;
+	
+}
+a.arrow-right {
+	background: #ccc url(../images/arrow-right.png) no-repeat 30% center;
+	right: -2.5%;
+}
+a.arrow-left:hover,
+a.arrow-right:hover {
+	width: 100px;
+	background-color: #f05232;
+}
+
+.icon-alone {
+	display: inline-block;
+}
+
+.screen-reader-text {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+.linkedin:hover {
+	background-color: #007bb6;
+}
+.twitter:hover {
+	background-color: #00acee;
+}
+.dribbble:hover {
+	background-color: #ea4c89;
+}
+.instagram:hover {
+	background-color: #3f729b;
+}
+.school-of-art:hover {
+	color: #9e0b0f;	
+}
+
+/* ----- CONTACT FORM FIELD ----- */
+
+.contact {
+	margin-top: 5em;
+	padding: 0 0 5em 0;
+	position: relative;
+}
+
+.form-field {
+	width: 100%;
+	border: none;
+	padding: 1.5em;
+	margin: 0 0 2%;
+	outline: none;
+	font-family: 'OpenSansLight', Helmet, Freesans, sans-serif;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+
+.comment-field {
+	width: 100%;
+	margin: 0 0 2%;
+	resize: vertical;
+	min-height: 8em;
+}
+
+.form-button {
+	clear: both;
+	display: block;
+	width: 60%;
+	padding: 1.5em 0;
+	margin: 0 auto;
+	font-family: 'OpenSansLight', Helmet, Freesans, sans-serif;
+	letter-spacing: .08em;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #626055;
+	color: #f7f7f7;
+	border: 0;
+	cursor: pointer;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-transition: background 0.3s ease;
+	-moz-transition: background 0.3s ease;
+	transition: background 0.3s ease;
+}
+
+.form-button:hover {
+	background-color: #f05232;
+	color: #fff;
+}
+
+/* ----- HEADER ----- */
+
+.front-header {
+	width: 100%;
+	color: #626055;
+	position: absolute;
+	bottom: 0;
+	z-index: 99;
+	pointer-events: none;
+}
+
+.main-header {
+	width: 100%;
+	color: #626055;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	pointer-events: none;
+}
+
+.header-container {
+	background-color: #f7f7f7; 
+	pointer-events: all;
+	letter-spacing: .03em;
+}
+
+/* hide on mobile */
+.brand {
+	display: none;
+}
+
+/* from Responsive-Nav.css */
+#nav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+#nav li {
+  width: 100%;
+  display: block;
+}
+.js #nav {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+#nav.opened {
+  max-height: 9999px;
+}
+
+#nav-toggle {
+	font-family: 'icomoon';
+	font-size: 2em;
+	text-decoration: none;
+	padding: .5em;
+	display: inline-block;
+	-webkit-transition: background 0.3s ease;
+	-moz-transition: background 0.3s ease;
+	transition: background 0.3s ease;
+}
+
+.brand a,
+#nav a {
+	display: block;
+	padding: 1.5em 1em;
+	font-size: 90%;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #454539;
+	border-bottom: 1px solid #f0f0f0;
+	-webkit-transition: background 0.3s ease;
+	-moz-transition: background 0.3s ease;
+	transition: background 0.3s ease;
+}
+.brand a.brand-name:hover,
+#nav a:hover,
+#nav-toggle:hover {
+	color: #f8f8f8;
+	background-color: #f05232;
+}
+
+/* Media queries!
+-------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 480px) {
+	
+	/* feature banners */
+	#slide1 {
+		background: url(../images/banners/feature-banner-01-small.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#slide2 {
+		background: url(../images/banners/feature-banner-02-small.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#slide3 {
+		background: url(../images/banners/feature-banner-03-small.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+		
+}
+
+@media screen and (min-width: 768px) {
+	
+	body {
+		font-size: 100%;
+	}
+	
+	h2 {font-size: 5em;}
+	h3 {font-size: 4em;}
+	h4 {font-size: 3em;}
+	h5 {font-size: 2em;}
+	
+	.container-small {
+		width: 60%;
+		max-width: 1000px;
+	}
+	
+	/* feature banners */
+	#slide1 {
+		background: url(../images/banners/feature-banner-01-narrow.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#slide2 {
+		background: url(../images/banners/feature-banner-02-narrow.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#slide3 {
+		background: url(../images/banners/feature-banner-03-narrow.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	
+	.fourth {
+		width: 22%;
+		height: auto;
+		float: left;
+		margin: 0 2% 4%;
+	}
+	
+	.fourth a:hover {
+		-webkit-opacity: .7;
+		-moz-opacity: .7;
+		opacity: .7;
+	}
+	
+	.form-field {
+		float: left;
+		width: 49%;
+		margin: 0 1% 2%;
+	}
+	
+	.comment-field {
+		width: 100%;
+		margin: 0 0 2%;
+	}
+	
+	.first {
+		margin-left: 0;
+	}
+
+	.last {
+		margin-right: 0;
+	}
+	
+	/* place pager-arrows fixed in browser on desktop */
+	a.arrow-left {
+		left: 0;
+		position: fixed;
+		top: 50%;
+	}
+	a.arrow-right {
+		right: 0;
+		position: fixed;
+		top: 50%;
+	}
+	
+	/* ----- HEADER ----- */
+	
+	/* reinstate brand */
+	.brand {
+		float: left;
+		display: block;
+		background: #f05232 url(../images/logo-caleb-sylvest.png) no-repeat left center;
+		background-size: auto 100%;
+	}
+	
+	/* from Responsive-Nav.css */
+	.js #nav {
+		position: relative;
+		max-height: none;
+	}
+	#nav-toggle {
+		display: none;
+	}
+	
+	#nav {
+		float: right;
+	}
+	
+	#nav ul li {
+		float: left;
+		width: auto;
+	}
+	
+	.brand h1.brand-name,
+	#nav a {
+		display: block;
+		padding: 2em;
+		color: #454539;
+		font-size: 70%;
+		background-color: transparent;
+		border: none;
+	}
+	
+	.brand h1.brand-name {
+		background-color: #f7f7f7;
+		display: inline-block;
+		float: right;
+		margin-left: 5.5em;
+		-webkit-transition: background 0.3s ease;
+		-moz-transition: background 0.3s ease;
+		transition: background 0.3s ease;
+	}
+	.brand h1.brand-name:hover {
+		background: transparent;
+		color: #fff;
+	}
+		
+}
+
+@media screen and (min-width: 1024px) {
+	
+	body {
+	}
+	
+	/* feature banners */
+	#slide1 {
+		background: url(../images/banners/feature-banner-01-normal.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#slide2 {
+		background: url(../images/banners/feature-banner-02-normal.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#slide3 {
+		background: url(../images/banners/feature-banner-03-normal.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+		
+}
+
+@media screen and (min-width: 1280px) {
+	
+	body {
+		font-size: 120%;
+	}
+	
+	/* feature banners */
+	#slide1 {
+		background: url(../images/banners/feature-banner-01-wide.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#slide2 {
+		background: url(../images/banners/feature-banner-02-wide.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	#slide3 {
+		background: url(../images/banners/feature-banner-03-wide.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+		
+}
+
+/* ----- Skillshare ----- */
+
+.skillshare-banner {
+  border: .5em solid #f8f8f8;
+  margin: 0 auto 5%;
+  max-width: 800px;
+}
+
+@media screen and (min-width: 768px) {
+  .skillshare-banner {
+    margin: 0 auto 4%;  
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .skillshare-banner {
+    
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .skillshare-banner {
+    
+  }
+}

@@ -1,0 +1,74 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.svg#icomoon') format('svg'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"]:before {
+*/
+.icon-dribbble:before, .icon-facebook:before, .icon-twitter:before, .icon-google-plus:before, .icon-google-plus-2:before, .icon-tumblr:before, .icon-github:before, .icon-soa:before, .icon-instagram02:before, .icon-instagram01:before, .icon-arrow-right:before, .icon-arrow-left:before, .icon-addy:before {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-dribbble:before {
+	content: "\21";
+}
+.icon-facebook:before {
+	content: "\22";
+}
+.icon-twitter:before {
+	content: "\23";
+}
+.icon-google-plus:before {
+	content: "\24";
+}
+.icon-google-plus-2:before {
+	content: "\25";
+}
+.icon-tumblr:before {
+	content: "\26";
+}
+.icon-github:before {
+	content: "\27";
+}
+.icon-soa:before {
+	content: "\28";
+}
+.icon-instagram02:before {
+	content: "\29";
+}
+.icon-instagram01:before {
+	content: "\2a";
+}
+.icon-arrow-right:before {
+	content: "\2b";
+}
+.icon-arrow-left:before {
+	content: "\2c";
+}
+.icon-addy:before {
+	content: "\2d";
+}
