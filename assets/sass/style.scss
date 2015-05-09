@@ -1,0 +1,38 @@
+/* Import Partials!
+-------------------------------------------------------------------------------*/
+
+@import "compass/css3";
+
+// browser reset
+@import "vendor/_normalize";
+
+// modules
+@import "modules/_vars";
+
+//structure
+@import "vendor/_grid";
+@import "partials/_global";
+
+@import "partials/_objects";
+@import "partials/_type";
+@import "partials/_header";
+@import "partials/_footer";
+
+@import "partials/_home";
+@import "partials/_portfolio";
+
+
+
+
+body {
+	background-color: $body-bg;
+	border: .7em solid #fff;
+
+	-webkit-box-shadow: inset 0px 10px 58px 1px rgba(232,240,243,1);
+	-moz-box-shadow: inset 0px 10px 58px 1px rgba(232,240,243,1);
+	box-shadow: inset 0px 10px 58px 1px rgba(232,240,243,1); 
+}
+
+.story {
+	padding: 5em 0;
+}

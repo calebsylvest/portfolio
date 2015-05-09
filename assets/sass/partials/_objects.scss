@@ -1,0 +1,26 @@
+/* 
+  *
+  * Objects
+  *
+  */
+
+// reusable bits
+
+.main-content {
+	width: 93%;
+	max-width: 35em;
+	margin: 0 auto;
+
+	@media screen and (min-width: $medium-screen) {
+		max-width: 55em;
+	}
+}
+
+%big-icon {
+	max-width: 12em;
+	@include border-radius($global-rounded);
+
+	@media screen and (min-width: $small-screen) {
+		max-width: 15em;
+	}
+}
