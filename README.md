@@ -1,5 +1,3 @@
-# Caleb Sylvest Portfolio v1
+# Caleb Sylvest Portfolio v2
 
-My personal portfolio site created to graduate school.
-
-Hilariously, I didn't know the difference between classes and ids at the time. Ha!
+all code and images copyrighted by Caleb Sylvest
