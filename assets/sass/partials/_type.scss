@@ -93,13 +93,13 @@ a {
 	
 	// achor links withing paragraph text
 	p & {
-		color: $secondary-color;
-		border-bottom: 1px solid rgba($secondary-color, .2);
-		@extend .small-caps;
+		//color: $secondary-color;
+		//border-bottom: 1px solid rgba($secondary-color, .2);
+		//@extend .small-caps;
 
 		&:hover {
-			color: $primary-color;
-			border-color: $primary-color;
+			//color: $primary-color;
+			//border-color: $primary-color;
 		}
 	}
 }

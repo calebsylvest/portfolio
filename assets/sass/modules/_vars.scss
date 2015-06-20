@@ -36,23 +36,23 @@ $body-bg: #f7fafb;
 // $BaseType
 // -------------------------------------//
 
-$serif-font: "Alegreya", Georgia, serif;
+$serif-font: "athelas",serif;
 $serif-small-caps-font: "Alegreya SC", Georgia, serif;
 $sans-font: "Montserrat", Helvetica, Arial, sans-serif;
 
 // Body font styles
 
 $body-font-family: $serif-font;
-$body-font-color: $blue-color;
+$body-font-color: #000;
 $body-font-weight: normal;
 $body-font-style: normal;
 
 // Heading font styles
 
-$header-font-family: $sans-font;
+$header-font-family: $serif-font;
 $header-font-weight: 500;
 $header-font-style: normal;
-$header-font-color: $blue-color;
+$header-font-color: #000;
 $header-line-height: 1.5;
 $header-top-margin: .2em;
 $header-bottom-margin: .5em;
