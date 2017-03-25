@@ -1,5 +1,8 @@
 # Caleb Sylvest Portfolio v1
 
-My personal portfolio site created to graduate school.
+- Circa  April 2011
+- My personal portfolio site created to graduate school.
+- Hilariously, I didn't know the difference between classes and ids at the time. Ha!
+- What's responsive? 😝
 
-Hilariously, I didn't know the difference between classes and ids at the time. Ha!
+![v1 Screenshot](css-portfolio-v1.png)
