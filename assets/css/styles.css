@@ -1,0 +1,139 @@
+/* ==========================================================================
+   Caleb Sylvest 😎
+   ========================================================================== */
+
+html {
+  font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  color: #291d28;
+  font-size: 50%;
+  letter-spacing: -.01em;
+}
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+a {
+  color: #43a5b7;
+  text-decoration: none;
+  position: relative;
+  opacity: .3;
+  transition: all .2s linear;
+}
+a:hover {
+  opacity: 1;
+  text-decoration: line-through;
+}
+
+.spacetime { color: #fe9200; }
+.skillshare { color: #68b8be; }
+.udemy { color: #00ad09; }
+.blog { color: #bd3c91; }
+.vlog { color: #cd201f; }
+.dribbble { color: #ea4c89; }
+.github { color: #adb5bd; }
+.linkedin { color: #0077b5; }
+.twitter { color: #1da1f2; }
+.instagram { color: #405de6; }
+
+.list-none {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fb { font-size: .75rem; }
+.fa { font-size: .85rem; }
+.f1 { font-size: 1rem; }
+.f2 { font-size: 2rem; }
+.f3 { font-size: 3rem; }
+.f4 { font-size: 4rem; }
+.f5 { font-size: 5rem; }
+.f6 { font-size: 6rem; }
+.f8 { font-size: 8rem; }
+
+.vw1 { font-size: 1vw; }
+.vw2 { font-size: 2vw; }
+.vw3 { font-size: 3vw; }
+.vw4 { font-size: 4vw; }
+.vw5 { font-size: 5vw; }
+.vw6 { font-size: 6vw; }
+.vw7 { font-size: 7vw; }
+.vw8 { font-size: 8vw; }
+.vw9 { font-size: 9vw; }
+.vw12 { font-size: 12vw; }
+
+.fw2 { font-weight: 200; }
+.fw4 { font-weight: 400; }
+.fw5 { font-weight: 500; }
+.fw6 { font-weight: 600; }
+.fw7 { font-weight: 700; }
+
+.lh08 { line-height: .7; }
+.lh1 { line-height: 1; }
+.lh11 { line-height: 1.1; }
+.lh12 { line-height: 1.2; }
+.lh13 { line-height: 1.3; }
+.lh14 { line-height: 1.4; }
+
+
+.gray-0 { color: #212529; }
+.gray-1 { color: #343a40; }
+.gray-2 { color: #495057; }
+.gray-3 { color: #868e96; }
+.gray-4 { color: #adb5bd; }
+.gray-5 { color: #ced4da; }
+.gray-6 { color: #dee2e6; }
+.gray-7 { color: #e9ecef; }
+.gray-8 { color: #f3f6f6; }
+.gray-9 { color: #f8f9fa; }
+
+.mauto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mlauto { margin-left: auto; }
+.mrauto { margin-right: auto; }
+.m0   { margin: 0; }
+.m05  { margin: .5rem; }
+.mt05 { margin-top: .5rem; }
+.mb05 { margin-bottom: .5rem; }
+.p0   { padding: 0; }
+.p05  { padding: .5rem; }
+.pt05 { padding-top: .5rem; }
+.pb05 { padding-bottom: .5rem; }
+.mr05 { margin-right: .5rem; }
+.ml05 { margin-left: .5rem; }
+
+.m1 { margin: 1rem; }
+.m2 { margin: 2rem; }
+.m3 { margin: 3rem; }
+.m4 { margin: 4rem; }
+.m5 { margin: 5rem; }
+
+.mb1 { margin-bottom: 1rem; }
+.mb2 { margin-bottom: 2rem; }
+.mb3 { margin-bottom: 3rem; }
+.mb4 { margin-bottom: 4rem; }
+.mb5 { margin-bottom: 5rem; }
+
+.mt1 { margin-top: 1rem; }
+.mt2 { margin-top: 2rem; }
+.mt3 { margin-top: 3rem; }
+.mt4 { margin-top: 4rem; }
+.mt5 { margin-top: 5rem; }
+
+.limit-width { max-width: 20em; }
+
+.site-name {
+  font-size: 15vw;
+  margin-top: -3rem;
+  letter-spacing: -.03em;
+  position: relative;
+}
