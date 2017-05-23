@@ -11,22 +11,25 @@
 
         <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/css/styles.css">
+        <script type="text/javascript" src="assets/js/scripts.js">
+
+        </script>
     </head>
     <body>
 
         <ul class="list-none f8 vw9 fw7 lh08 m2">
-            <li class="site-name">Caleb Sylvest</li>
-            <li class="f4 vw5 lh12 mt1 mb5 gray-5 limit-width">Thinker, Pixel Pusher, Experience Advocate, Code Monkey, Entrepreneur, Part-time self-deprecating comedian</li>
-            <li class="mb4">Partner at <a class="spacetime" href="http://heyspacetime.com/">Spacetime</a></li>
-            <li class="mb4">Teaching on <a class="skillshare" href="https://www.skillshare.com/user/calebsylvest/teaching">Skillshare</a></li>
-            <li class="mb4">Moar teaching on <a class="udemy" href="https://www.udemy.com/courses/search/?q=bookbinding&src=sac&kw=bookbin">Udemy</a></li>
-            <li class="mb4">Read my <a class="blog" href="http://calebsylvest.com/blog/">Blog</a></li>
-            <li class="mb4">Watch my  <a class="vlog" href="https://www.youtube.com/watch?v=PNIvsGS1cL0&list=PLGQf8yzLXm8FGf2qwntfxiCiOc0IqSU6S">Vlog</a></li>
-            <li class="mb4">Pixels on <a class="dribbble" href="https://dribbble.com/calebsylvest">Dribbble</a></li>
-            <li class="mb4">Codes at <a class="github" href="https://github.com/calebsylvest">Github</a></li>
-            <li class="mb4">Networking with <a class="linkedin" href="www.linkedin.com/in/calebsylvest">LinkedIn</a></li>
-            <li class="mb4">140 character messages on <a class="twitter" href="https://twitter.com/">Twitter</a></li>
-            <li class="mb4">Life on <a class="instagram" href="https://www.instagram.com/calebsylvest/">Instagram</a></li>
+            <li class="site-name fade-in">Caleb Sylvest</li>
+            <li class="f4 vw5 lh12 mt1 mb5 gray-5 limit-width offset-fade-in">Thinker, Pixel Pusher, Experience Advocate, Code Monkey, Entrepreneur, Part-time self-deprecating comedian</li>
+            <li class="mb4 bottom-in">Partner at <a class="spacetime" href="http://heyspacetime.com/">Spacetime</a></li>
+            <li class="mb4 bottom-in">Teaching on <a class="skillshare" href="https://www.skillshare.com/user/calebsylvest/teaching">Skillshare</a></li>
+            <li class="mb4 bottom-in">Moar teaching on <a class="udemy" href="https://www.udemy.com/courses/search/?q=bookbinding&src=sac&kw=bookbin">Udemy</a></li>
+            <li class="mb4 bottom-in">Read my <a class="blog" href="http://calebsylvest.com/blog/">Blog</a></li>
+            <li class="mb4 bottom-in">Watch my  <a class="vlog" href="https://www.youtube.com/watch?v=PNIvsGS1cL0&list=PLGQf8yzLXm8FGf2qwntfxiCiOc0IqSU6S">Vlog</a></li>
+            <li class="mb4 bottom-in">Pixels on <a class="dribbble" href="https://dribbble.com/calebsylvest">Dribbble</a></li>
+            <li class="mb4 bottom-in">Codes at <a class="github" href="https://github.com/calebsylvest">Github</a></li>
+            <li class="mb4 bottom-in">Networking with <a class="linkedin" href="www.linkedin.com/in/calebsylvest">LinkedIn</a></li>
+            <li class="mb4 bottom-in">140 character messages on <a class="twitter" href="https://twitter.com/">Twitter</a></li>
+            <li class="mb4 bottom-in">Life on <a class="instagram" href="https://www.instagram.com/calebsylvest/">Instagram</a></li>
 
         </ul>
 
@@ -37,6 +40,32 @@
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
           ga('create', 'UA-29565053-1', 'auto');
           ga('send', 'pageview');
+
+          var bottom_in = {
+            origin   : 'bottom',
+            distance : '2.5rem',
+            duration : 900,
+            scale    : 1
+          };
+          var fade_in = {
+            origin   : 'left',
+            distance : '0',
+            duration : 900,
+            scale    : 1
+          };
+          var offset_fade_in = {
+            viewOffset: { bottom: 100 },
+            origin   : 'left',
+            distance : '0',
+            duration : 900,
+            scale    : 1
+          };
+
+          window.sr = ScrollReveal();
+          sr.reveal( '.bottom-in', bottom_in );
+          sr.reveal( '.fade-in', fade_in );
+          sr.reveal( '.offset-fade-in', offset_fade_in );
+          sr.reveal( '.fast-group-in', 50);
         </script>
     </body>
 </html>
